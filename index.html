@@ -16,7 +16,8 @@
 
 <body>
   <script>
-    $(document).ready(function() {
+    $(document).ready(function ()
+    {
       $("#target1").css("color", "red");
       $("#target1").prop("disabled", true);
       $("#target4").remove();
@@ -27,12 +28,13 @@
       $("#left-well").children().css("color", "green");
       $(".target:nth-child(2)").addClass("animated bounce");
       $(".target:even").addClass("animated shake");
-  
+      $("body").addClass("animated hinge");
+
     });
   </script>
-  
+
   <!-- Only change code above this line. -->
-  
+
   <div class="container-fluid">
     <h3 class="text-primary text-center">jQuery Playground</h3>
     <div class="row">
